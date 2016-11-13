@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+.container-fluid {
+    max-width: 95%;
+	margin: auto;
+}
+body {
+    font-family: "Avenir Light", "Museo Sans Rounded", "Muli", "Questrial";
+	font-style: normal;
+    color: white;
+    font-kerning: 15px;
+    text-align: center;
+}
+h1 {
+   font-family: "Avenir Light", "Muli", 
+}
+h2 {
+   font-family: "Avenir Light", "Muli", 
+}
+
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+/*Navigation Endss*/
+
+
+/*Logo and Header Starts*/
+header { 
+    margin-top: 0px;
+    white-space: nowrap;
+}
+.btn .btn-warning { 
+       font-size: 20px;
+       font-weight: bold;
+       font-family: "Avenir Medium", "Muli", "Questrial";
+       background-color: #9F418F;
+       border-color: #9F418F;
+       margin-left: 10px;
+}
+.button p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Avenir Medium", "Muli", "Questrial";
+}
+#logo {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    border: none;
+}
+#logo .logoimg {
+    display: inline-block;
+    max-width: 100px;
+    float: left;
+}
+#logo .icons {
+    display: inline-block;
+    font-size: 28px;
+    float: right;
+    margin-right: 15px;
+    padding-top: 2.7px;
+}
+/*Logo and Header Ends*/
+
+
+/*Video Starts*/
+#videogrp {
+    text-align: center;
+    margin-bottom: 0px;
+    clear: both;
+}
+#video {
+    width: auto;
+    text-align: center;
+    max-height: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+}
+.text-overlay {
+    z-index: 1000;
+    position: relative;
+    top:-400px;
+    font-family: "Avenir"; 
+    color: white;
+    text-shadow:
+    -1px -1px 0 #D8D8D8,
+    1px -1px 0 #D8D8D8,
+    -1px 1px 0 #D8D8D8,
+    1px 1px 0 #D8D8D8;  
+}
+.text-overlay h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+.text-overlay h1 {
+    font-weight: 100;
+    padding-top: 40px;
+    font-size: 100px;
+    font-family: "Apple Chancery"
+}
+/*Video Ends*/
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  margin-top: -200px;
+}
+.arrow i {
+    color: #94D2BA;
+}
+
+/*About Section Starts*/
+#about {
+	color: #888888;
+	padding-top: 13px;
+	margin-bottom: 500px;
+    margin-top: -100px;
+}
+#about h2 {
+    font-family: "Avenir";
+    font-size: 20px;
+    max-width: 500px;
+    float: left;
+    padding-top: 150px;
+}
+#about img {
+    width: 400px;
+    float: right;
+}
+/*About Section Ends*/
+
+
+/*Image Section Starts*/
+#image {
+    text-align: center;
+    height: auto; 
+    padding-top: 200px;
+    margin-top: -20px;
+}
+/*Image Sections Ends*/
+
+
+#triangle2 {
+    text-align: center;
+}
+
+#triangle2 .triangle-down {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid white;
+    display: inline-block;
+    font-size: x-small;
+    position: relative;
+    top: -20px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
+
+#triangle3 {
+    text-align: center;
+}
+#triangle3 .triangle-down {
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 30px solid #5B5C5C;
+    display: inline-block;
+    font-size: x-small;
+    position: relative;
+    top: -46px;
+    z-index: 1000;
+    margin-bottom: -50px;
+    padding-bottom: -90px;
+}
+
+#contact {
+    background-color: #C9C9C9;
+    margin-top: -20px;
+}
+
+/*Footer Section Starts*/
+#backtotop {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#backtotop:hover {
+    text-decoration: underline;
+}
+
+footer {
+    max-width: 1080px;
+    font-family: "Muli", "Questrial", "Avenir Medium";
+    position: static;
+    height: 35px;
+    background-color: #B7B7B7;
+    display: inline-block;
+}
+.text-muted {
+   font-family: "Muli", "Questrial", "Avenir Medium";
+   margin-top: 8px;
+   float: left;
+   margin-left: 20px;
+   font-size: 14px;
+}
+.signup-2 {
+    float: right;
+    margin-top: 5px;
+    font-size: small;
+    margin-right: 20px;
+}
+.signup-2 .icons {
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #3F403F;
+}
+
+/*Footer Section Ends*/
+
+.resrc {
+    width: 100%
+}
+@media screen and (max-width: 568px) {
+    #about h1 {
+        font-size: 19px;
+    }
+    .aboutus {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .mission {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #logo .icons {
+    font-size: 20px;
+    float: right;
+    margin-right: 15px;
+    padding-top: 2.7px;
+    }
+    #videogrp a {
+    top:-50px;
+    font-size: 15px;
+    }
+    #involve p {
+    padding-left: 12px;
+    padding-right: 12px;
+    }
+    .signup-2 .mail{
+    display: none;
+    }
+    #projects a {
+    font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .mission {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
