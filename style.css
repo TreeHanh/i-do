@@ -125,7 +125,7 @@ header {
     display: inline-block;
 }
 #screen1 img {
-    width: 900px;
+    width: 750px;
     float: center;
     display: inline-block;
     margin-top: -450px;
@@ -202,4 +202,32 @@ footer {
 
 @media screen and (max-width: 1300px) {
 
+}
+
+@media screen and (min-width: 1600px) {
+.text-overlay {
+    z-index: 1000;
+    position: relative;
+    top:-450px;
+    font-family: "Museo Sans Rounded"; 
+    font-weight: 100;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #D8D8D8,
+    1px -1px 0 #D8D8D8,
+    -1px 1px 0 #D8D8D8,
+    1px 1px 0 #D8D8D8;  
+}
+.text-overlay h2 {
+    font-weight: 100;
+    font-size: 45px;
+    font-kerning: 60px;
+    font-family: "Museo Sans Rounded"; 
+}
+.text-overlay h1 {
+    font-weight: 100;
+    padding-top: 40px;
+    font-size: 100px;
+    font-family: "Apple Chancery"
+}
 }
