@@ -208,7 +208,7 @@ footer {
 .text-overlay {
     z-index: 1000;
     position: relative;
-    top:-450px;
+    top:-600px;
     font-family: "Museo Sans Rounded"; 
     font-weight: 100;
     color: white;
