@@ -5,19 +5,12 @@
 	margin: auto;
 }
 body {
-    font-family: "Museo Sans Rounded", "Avenir";
+    font-family: "Mrs Eaves XL Serif", "Museo Sans Rounded", "Avenir";
 	font-style: normal;
     color: white;
     font-kerning: 15px;
     text-align: center;
 }
-
-* {
-  border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-}
-/*Navigation Endss*/
-
 
 /*Logo and Header Starts*/
 header { 
@@ -63,6 +56,7 @@ header {
     position: relative;
     top:-350px;
     font-family: "Museo Sans Rounded"; 
+    font-weight: 100;
     color: white;
     text-shadow:
     -1px -1px 0 #D8D8D8,
@@ -82,6 +76,7 @@ header {
     font-family: "Apple Chancery"
 }
 /*Video Ends*/
+
 .arrow {
   text-align: center;
   position: fixed;
@@ -137,6 +132,9 @@ header {
 }
 /*About Section Ends*/
 
+#line img {
+    padding-top: 150px;
+}
 
 /*Image Section Starts*/
 #image {
@@ -146,39 +144,6 @@ header {
     margin-top: -20px;
 }
 /*Image Sections Ends*/
-
-#triangle2 {
-    text-align: center;
-}
-
-#triangle2 .triangle-down {
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 50px solid white;
-    display: inline-block;
-    font-size: x-small;
-    position: relative;
-    top: -20px;
-    z-index: 1000;
-    margin-bottom: -50px;
-    padding-bottom: -90px;
-}
-
-#triangle3 {
-    text-align: center;
-}
-#triangle3 .triangle-down {
-	border-left: 45px solid transparent;
-	border-right: 45px solid transparent;
-	border-top: 30px solid #5B5C5C;
-    display: inline-block;
-    font-size: x-small;
-    position: relative;
-    top: -46px;
-    z-index: 1000;
-    margin-bottom: -50px;
-    padding-bottom: -90px;
-}
 
 #contact {
     background-color: #C9C9C9;
