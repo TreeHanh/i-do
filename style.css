@@ -54,7 +54,7 @@ header {
     z-index: 1000;
     position: relative;
     top:-350px;
-    font-family: "Museo Sans Rounded"; 
+    font-family: "Museo Sans Rounded" !important; 
     font-weight: 100;
     color: white;
     text-shadow:
