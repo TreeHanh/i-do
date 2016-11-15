@@ -68,6 +68,7 @@ header {
     font-weight: 100;
     font-size: 31px;
     font-kerning: 60px;
+    font-family: "Museo Sans Rounded"; 
 }
 .text-overlay h1 {
     font-weight: 100;
