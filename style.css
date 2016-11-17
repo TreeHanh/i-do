@@ -317,7 +317,7 @@ footer h6 {
 
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
 .text-overlay {
     z-index: 1000;
     position: relative;
