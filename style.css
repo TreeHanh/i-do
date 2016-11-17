@@ -12,6 +12,7 @@ body {
     text-align: center;
 }
 
+
 /*Logo and Header Starts*/
 header { 
     margin-top: 0px;
@@ -34,7 +35,7 @@ header {
     margin-right: 15px;
     padding-top: 2.7px;
 }
-/*Logo and Header Ends*/
+
 
 
 /*Video Starts*/
@@ -75,8 +76,9 @@ header {
     font-size: 100px;
     font-family: "Apple Chancery"
 }
-/*Video Ends*/
 
+
+/*Arrow starts*/
 .arrow {
   text-align: center;
   left: 49%;
@@ -87,13 +89,14 @@ header {
 .arrow i {
     text-align: center;
     color: #94D2BA;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
+
 
 /*About Section Starts*/
 #about {
 	color: #888888;
-	padding-top: 13px;
+	padding-top: 50px;
 	margin-bottom: 500px;
     margin-top: -150px;
     margin-left: 90px;
@@ -101,17 +104,16 @@ header {
     display: inline-block;
 }
 .aboutus {
-     padding-top: 200px;
+     padding-top: 240px;
      max-width: 600px;
 }
 #about h1 {
-    font-family: "Avenir";
     font-size: 30px;
+    font-weight: 300;
     text-align: center;
     display: inline-block;
 }
 #about h2 {
-    font-family: "Avenir";
     font-size: 18px;
     max-width: 500px;
     line-height: 30px;
@@ -129,39 +131,97 @@ header {
     width: 70%;
     float: center;
     display: inline-block;
-    margin-top: -450px;
+    margin-top: -430px;
+    padding-bottom: 150px;
 }
-/*About Section Ends*/
+ 
 
-#line img {
-    padding-top: 150px;
-}
-/*features*/
+/*Steps section starts*/
 #steps {
-    padding-top: 150px;
+    padding-top: 50px;
     font-weight: 100;
     color: gray;
     font-family: "museo-sans-rounded";
 }
 #steps h3 {
     margin-top: 150px;
+    font-weight: 300;
 }
 #steps p{
     line-height: 25px;
+    padding-top: 30px;
 }
+#steps img {
+    max-width: 350px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.features h2{
+    padding-top: 200px;
+    font-family: "museo-sans-rounded";
+    color: darkgray;
+    font-weight: 300;
+}
+/*Messages Section Starts*/
+#messages {
+    margin-top: 150px;
+    color: darkgray;
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#messages h3 {
+    padding-top: 200px;
+}
+#messages img {
+    max-width: 400px;
+}
+
+
+/*Events Section Starts*/
+#events {
+    margin-top: 200px;
+    color: darkgray;
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#events h3 {
+    padding-top: 200px;
+}
+#events img {
+    max-width: 400px;
+}
+
+
+
+/*Boards Section Starts*/
+#boards {
+    margin-top: 200px;
+    color: darkgray;
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#boards h3 {
+    padding-top: 200px;
+}
+#boards img {
+    max-width: 400px;
+}
+
+
 /*Image Section Starts*/
 #image {
     text-align: center;
     height: auto; 
-    padding-top: 330px;
+    padding-top: 250px;
     margin-top: -20px;
-}
-/*Image Sections Ends*/
-#contact {
-    background-color: #C9C9C9;
-    margin-top: -20px;
-}
+} 
 
+
+/*Back to Top Sections Starts */
 #backtotop {
     text-align: center;
     margin-top: 10px;
@@ -172,20 +232,6 @@ header {
     text-decoration: underline;
 }
 
-/*icon and download starts*/
-.download {
-    padding-top: 30px;
-    text-align: center;
-}
-.download .icon img {
-    clear: both;
-    width: 70px;
-}
-.download .appstore img {
-    clear: both;
-    padding-top: 20px;
-}
-/*icon and download ends*/
 
 /*Footer Section Starts*/
 footer {
@@ -223,10 +269,17 @@ footer h6 {
 }
 
 @media screen and (max-width: 768px) {
+    #steps img {
+    max-width: 250px;
+    padding-top: 50px;
+}
 }
 
 @media screen and (max-width: 900px) {
-
+   #steps img {
+    max-width: 250px;
+    padding-top: 50px;
+}
 }
 
 @media screen and (max-width: 1300px) {
