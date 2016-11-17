@@ -338,7 +338,7 @@ footer h6 {
 .text-overlay {
     z-index: 1000;
     position: relative;
-    top:-500px;
+    top:-505px;
     font-weight: 100;
     color: white;
     text-shadow:
@@ -349,7 +349,7 @@ footer h6 {
 }
 .text-overlay h2 {
     font-weight: 100;
-    font-size: 55px;
+    font-size: 49px;
     font-kerning: 60px;
 }
 .text-overlay h1 {
