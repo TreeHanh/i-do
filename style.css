@@ -242,6 +242,23 @@ header {
 }
 
 
+/*Change Section Starts*/
+#change {
+    margin-top: 200px;
+    color: darkgray;
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#change h3 {
+    padding-top: 200px;
+}
+#change img {
+    max-width: 400px;
+}
+
+
+
 /*Image Section Starts*/
 #image {
     text-align: center;
