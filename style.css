@@ -195,14 +195,19 @@ header {
 /*Messages Section Starts*/
 #messages {
     margin-top: 80px;
-    color: darkgray;
+    color: gray;
     margin-left: 60px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #messages h3 {
     padding-top: 150px;
-    align-content: left;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+#messages p {
+    font-size: 18px;
 }
 #messages img {
     max-width: 400px;
@@ -211,14 +216,19 @@ header {
 
 /*Events Section Starts*/
 #events {
-    margin-top: 200px;
-    color: darkgray;
+    margin-top: 80px;
+    color: gray;
     margin-left: 60px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #events h3 {
     padding-top: 200px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#events p {
+    font-size: 18px;
 }
 #events img {
     max-width: 400px;
@@ -228,14 +238,19 @@ header {
 
 /*Boards Section Starts*/
 #boards {
-    margin-top: 200px;
-    color: darkgray;
+    margin-top: 80px;
+    color: gray;
     margin-left: 60px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #boards h3 {
     padding-top: 200px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#boards p {
+    font-size: 18px;
 }
 #boards img {
     max-width: 400px;
@@ -244,17 +259,22 @@ header {
 
 /*Change Section Starts*/
 #change {
-    margin-top: 200px;
-    color: darkgray;
+    margin-top: 80px;
+    color: gray;
     margin-left: 60px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 #change h3 {
     padding-top: 200px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#change p {
+    font-size: 18px;
 }
 #change img {
-    max-width: 400px;
+    max-width: 350px;
 }
 
 
