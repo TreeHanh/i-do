@@ -132,10 +132,10 @@ header {
     float: center;
     display: inline-block;
     margin-top: -430px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
  
-
+/*Customize Starts*/
 .customize {
     margin-top: 80px;
 }
@@ -192,6 +192,7 @@ header {
 .row p {
     line-height: 28px;
 }
+
 /*Messages Section Starts*/
 #messages {
     margin-top: 80px;
@@ -202,8 +203,8 @@ header {
 }
 #messages h3 {
     padding-top: 150px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 200;
     
 }
 #messages p {
@@ -224,8 +225,8 @@ header {
 }
 #events h3 {
     padding-top: 200px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 200;
 }
 #events p {
     font-size: 18px;
@@ -246,8 +247,8 @@ header {
 }
 #boards h3 {
     padding-top: 200px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 200;
 }
 #boards p {
     font-size: 18px;
@@ -267,8 +268,8 @@ header {
 }
 #change h3 {
     padding-top: 200px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 200;
 }
 #change p {
     font-size: 18px;
